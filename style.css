@@ -1,0 +1,50 @@
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+a {
+  position: absolute;
+  z-index: 9999;
+  color: rgb(255, 192, 203);
+  text-decoration: none;
+  font-family: 'Sour Gummy', sans-serif;
+  font-size: 18px;
+}
+
+.bottom-link {
+  top: 90%;
+  left: 60%;
+}
+.right-link {
+  right: 20px;
+  top: 40%;
+}
+.top-link {
+  top: 20px;
+  left: 80%;
+}
+.bottomfloat-link {
+  top: 70%;
+  left: 20%;
+}
+.topfloat-link {
+  top: 10%;
+  left: 45%;
+}
+
+.oceantext {
+  color:white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: underline;
+}
+
+.home-link {
+  top: 20px;
+  left: 20px;
+  text-decoration: underline;
+}
